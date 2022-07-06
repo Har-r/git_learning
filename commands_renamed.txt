@@ -1,0 +1,56 @@
+pwd present working directory
+ls  list content
+cd change directory
+
+git status
+git init
+for staging - git add --a
+for commiting git commit -m "type message"
+to check no. of commits git log
+
+after any change how to add file
+git add filename.extension
+
+to delete a git repositry
+rm -rf .git
+
+to clone any repositry
+git clone url
+
+
+
+touch error.log ---it generates a log file in folder
+touch .gitignore ---it also generates a file in folder
+to ignore error.log file we write error.log in .gitignore file
+and to ignore many such files we write *.log in .gitignore file
+
+to ignore folder in repositry we write foldername/ in .gitingnore
+to ignore only outer folder we write /foldername/ in .gitingnore
+
+
+git diff ---compares working directory to staging area
+
+
+
+
+git commit -a -m ---direct commit after staging
+
+
+
+
+git rm --cached hello.h ---for untracking file
+git restore --hello.c ---undo
+git diff .
+git add -u ---add only tracked files
+git reset filename ---for undo
+git show commit id
+git diff HEAD~1 ---shows diff b/w 1 level
+git difftool filename
+git checkout .
+git log --stat ---how many files changed
+git log --stat --oneline
+git clean --fd ---remove untracked files
+git add -p <filename> ---to deal with whitespaces shows diff in patches
+git commit --amend .
+git history
+git reflog
