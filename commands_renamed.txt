@@ -54,3 +54,39 @@ git add -p <filename> ---to deal with whitespaces shows diff in patches
 git commit --amend .
 git history
 git reflog
+
+
+
+
+
+
+git rm filename ---to delete a file
+git mv oldfilename newfilename ---to rename a file and also put it in staging area
+git rm --cached filename ---to untrack the file
+git clone url foldername
+git log -p ---to check difference
+git log -p -m(no. of differences)
+git log --stat ---summary of commits
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days or 2.weeks
+
+git svn documentation
+
+git log --pretty=format:"%h -- %an" ---shows us commits with user name in this format
+git commit --amend
+i (edit or add anything)press esc :wq
+
+
+git restore --staged filename ---to unstage the file
+git checkout --filename   ---to restore changes
+git checkout -f ---to restore changes in all files
+
+git remote
+
+shift insert to paste in git bash
+git remote add origin giturl
+git remote -v
+
+git config --global alias.st status
